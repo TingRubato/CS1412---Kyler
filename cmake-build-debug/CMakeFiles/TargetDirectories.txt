@@ -1,0 +1,3 @@
+C:/Users/Ting Xu/CLionProjects/CS1412/cmake-build-debug/CMakeFiles/CS1412.dir
+C:/Users/Ting Xu/CLionProjects/CS1412/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ting Xu/CLionProjects/CS1412/cmake-build-debug/CMakeFiles/rebuild_cache.dir
