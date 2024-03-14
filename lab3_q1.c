@@ -38,8 +38,10 @@ int main() {
         switch (user_shipping_method) {
             case EXPRESS:
                 shippingCost = 5.00*totalWeight;
+                break;
             case STANDARD:
                 shippingCost = 2.50*totalWeight;
+                break;
             default:
                 break;
         }
@@ -47,8 +49,10 @@ int main() {
         switch (user_shipping_method) {
             case EXPRESS:
                 shippingCost = 5.00*totalWeight*0.9;
+                break;
             case STANDARD:
                 shippingCost = 2.50*totalWeight*0.9;
+                break;
             default:
                 break;
         }
@@ -56,13 +60,14 @@ int main() {
         switch (user_shipping_method) {
             case EXPRESS:
                 shippingCost = 5.00*totalWeight*0.9-10;
-
+                break;
             case STANDARD:
                 shippingCost = 2.5*totalWeight*0.9;
             default:
                 break;
         }
     }
+
     printf("Total shipping cost: $%.2f",shippingCost);
 
 }
